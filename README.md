@@ -55,7 +55,7 @@ All of these implementations are done using Conda. (Note: It requires python ver
 This repo contains both notebook and script versions for training and inference.
 
 1. lamoe - This folder contains source code for tokenizer and entirety of transformer model.
-2. Dataset.ipynb - This notebook contains dataset processing, creating tokenizer and creation of tokens.
+2. Dataset.ipynb - This notebook contains dataset processing, creating tokenizer and creation of tokens. *Byte-Pair Encoding* (BPE) is used as Tokenizer for tokenizing the text.
 3. Training.ipynb - This notebook contains training of lamoe.
 4. Inference.ipynb - This notebook contains the inference using trained lamoe.
 5. train_eval.py - The native python script for training lamoe using command line.
