@@ -50,6 +50,7 @@ All of these implementations are done using Conda. (Note: It requires python ver
 3. [Shakespeare Plays](https://www.kaggle.com/datasets/kingburrito666/shakespeare-plays)
 4. [Physics Pages](https://www.kaggle.com/datasets/judehunt23/llm-science-exam-training-data-wiki-pages/data)
 5. [Wiki Pages](https://www.kaggle.com/datasets/ffatty/plaintext-wikipedia-full-english/data)
+6. [Book](Data)
 
 #### Information about repo:
 This repo contains both notebook and script versions for training and inference.
