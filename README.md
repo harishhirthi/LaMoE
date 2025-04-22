@@ -26,8 +26,8 @@ All of these implementations are done using Conda. (Note: It requires python ver
 1. Clone this repository.
 
    ```
-   git clone https://github.com/harishhirthi/NpyLinear.git
-   cd NpyLinear
+   git clone https://github.com/harishhirthi/LaMoE.git
+   cd LaMoE
    ```
 2. Create conda environment using environment.yml and activate this environment.
    ```
@@ -52,7 +52,7 @@ All of these implementations are done using Conda. (Note: It requires python ver
 5. [Wiki Pages](https://www.kaggle.com/datasets/ffatty/plaintext-wikipedia-full-english/data)
 6. [Book](Data)
 
-#### Information about repo:
+### Information about repo:
 This repo contains both notebook and script versions for training and inference.
 
 1. lamoe - This folder contains source code for tokenizer and entirety of transformer model.
