@@ -99,7 +99,7 @@ class MoE(nn.Module):
                 # Update final output additively by indexing and adding
                 out[expert_mask] += weighted_output.squeeze(1)
         
-        # Auxiliary Loss
+        # Auxiliary Loss - This loss ensures balance usage of all the experts instead of exploiting to particular expert
         if self.aux_loss:
             imp = gate_scores.sum(1)
             cv = imp.var() / (imp.mean() ** 2)
